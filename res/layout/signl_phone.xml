@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <ImageView 
+        android:id="@+id/diyi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_visit_calllog_data"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dier"
+        android:text="ddsdsdsds"
+         android:layout_marginLeft="60dp"
+        
+        />
+    <ImageView 
+        android:id="@+id/disan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_get_telephone_number"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        />
+
+</RelativeLayout>

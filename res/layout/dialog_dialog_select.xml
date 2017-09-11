@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/dialog_dialog_edit"
+     >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="号码"
+        />
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialog_dialog_text1"
+    />
+ <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        />
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialog_dialog_text2"
+    />
+ <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="地址"
+        />
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialog_dialog_text3"
+    />
+</LinearLayout>

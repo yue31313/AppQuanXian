@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+<ImageView 
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/hh"
+     android:id="@+id/virus_text2_appicon"
+    />
+<LinearLayout 
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    
+    >
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="25dp"
+    android:layout_marginLeft="10dp"
+    android:textSize="20sp"
+     android:id="@+id/virus_text3_apppackage"
+     android:text="dddd"
+    />
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="25dp"
+     android:layout_marginLeft="10dp"
+     android:textSize="20sp"
+     android:id="@+id/virus_text1_appname"
+     android:text="dddd"
+    />
+</LinearLayout>
+<Button 
+    android:layout_gravity="right"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:textColor="@android:color/white"
+    android:background="@android:color/transparent"
+    android:text="卸载"
+    android:textSize="20sp"
+    android:id="@+id/virus_text4_appbtn"
+    />
+
+</LinearLayout>

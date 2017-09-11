@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<EditText 
+    android:id="@+id/layout_phone_dialog_edot"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:phoneNumber="true"
+    android:tag="请输入拨打的拦截号码"
+    />
+</LinearLayout>

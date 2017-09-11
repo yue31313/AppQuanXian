@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="120dp"
+      android:orientation="horizontal"
+      
+      >
+      <ProgressBar 
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_gravity="center_vertical"
+          android:layout_marginLeft="30dp"
+          android:id="@+id/progressBar1"
+          />
+      <LinearLayout 
+          android:layout_width="fill_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_marginTop="30dp"
+          >
+          
+            <TextView 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="有20个拦截号码和监听号码"
+          android:textSize="15sp"
+          android:layout_marginLeft="15dp"
+          android:id="@+id/x"
+          />
+              <TextView 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/x1"
+          android:text="有20条拦截记录"
+           android:textSize="15sp"
+          android:layout_marginLeft="25dp"
+          android:layout_marginTop="5dp"
+          />
+                <TextView 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/x2"
+          android:text="有20条监听记录"
+           android:textSize="15sp"
+           android:layout_marginTop="15dp"
+          android:layout_marginLeft="15dp"  
+           android:gravity="center_horizontal"
+          />
+          
+      </LinearLayout>
+    
+      
+  </LinearLayout>
+    
+    <ListView 
+        android:id="@+id/phone_shadu_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+          
+    </ListView>
+      
+
+</LinearLayout>
